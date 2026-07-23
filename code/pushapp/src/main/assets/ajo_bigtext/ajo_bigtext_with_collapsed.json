@@ -1,0 +1,17 @@
+{
+  "adb_template_type": "ajo_bigtext",
+  "adb_version": "1",
+  "adb_title": "AJO Big Text",
+  "adb_body": "This is the full expanded big text. It can be much longer and wrap across multiple lines in the expanded notification view. This is the full expanded big text. It can be much longer and wrap across multiple lines in the expanded notification view.",
+  "adb_icon": "ic_launcher_background",
+  "adb_sound": "bells",
+  "adb_channel_id": "ajo_bigtext_channel",
+  "adb_n_count": "1",
+  "adb_n_priority": "PRIORITY_HIGH",
+  "adb_n_visibility": "PUBLIC",
+  "adb_a_type": "WEBURL",
+  "adb_uri": "https://www.adobe.com",
+  "adb_act": "[{\"label\":\"Learn More\",\"uri\":\"https://www.adobe.com\",\"type\":\"WEBURL\"},{\"label\":\"Open App\",\"uri\":\"\",\"type\":\"OPENAPP\"}]",
+  "_xdm": "test-xdm-tracking-token",
+  "adb_template_properties": "{\"adb_collapsed_text\":\"Short collapsed body.\",\"adb_large_icon\":\"https://images.unsplash.com/photo-1602015103066-f45732e2aa84?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\"}"
+}

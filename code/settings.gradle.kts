@@ -30,6 +30,15 @@ dependencyResolutionManagement {
 rootProject.name = "aepsdk-messaging-android"
 include(
     ":testapp",
+    ":pushapp",
     ":messaging",
     ":messagingtestutils",
 )
+
+// Use the local aepsdk-ui-android source instead of the published notificationbuilder artifact.
+// Remove this block once aepsdk-ui-android is released with AJO template support.
+includeBuild("../../aepsdk-ui-android/code") {
+    dependencySubstitution {
+        substitute(module("com.adobe.marketing.mobile:notificationbuilder")).using(project(":notificationbuilder"))
+    }
+}
